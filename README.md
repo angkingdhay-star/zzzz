@@ -1,5 +1,4 @@
-# zzzz
-zzzz
+@
 <!doctype html>
 <html lang="id" class="h-full scroll-smooth">
 <head>
@@ -64,7 +63,7 @@ body {
     <h2 class="text-2xl text-white mb-2">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْمِ</h2>
     <h1 class="text-4xl md:text-5xl font-arabic text-white mb-4">Assalamu’alaikum Warahmatullahi Wabarakatuh</h1>
     <p class="text-white text-lg mb-6">Undangan Pernikahan</p>
-    <h2 class="text-3xl md:text-4xl text-gold font-semibold mb-2">Aisyah & Ahmad</h2>
+    <h2 class="text-3xl md:text-4xl text-gold font-semibold mb-2">Muhamad Hidayatullah & Adea Anggun Novita Sari</h2>
     <button onclick="openInvitation()" class="btn-primary mt-6">Buka Undangan</button>
   </div>
 </section>
@@ -89,14 +88,14 @@ body {
 <section id="profil" class="section bg-white fade-in">
   <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
     <div class="text-center">
-      <img src="aisyah.jpg" alt="Aisyah" class="w-48 h-48 object-cover rounded-full mx-auto mb-4 border-4 border-emerald-600">
-      <h3 class="text-2xl font-semibold">Aisyah binti Abdullah</h3>
-      <p class="text-sm text-gray-600">Putri dari Bapak Abdullah & Ibu Fatimah</p>
+      <img src="adea.jpg" alt="Adea Anggun Novita Sari" class="w-48 h-48 object-cover rounded-full mx-auto mb-4 border-4 border-emerald-600">
+      <h3 class="text-2xl font-semibold">Adea Anggun Novita Sari</h3>
+      <p class="text-sm text-gray-600">Putri dari Bapak (—) & Ibu (—)</p>
     </div>
     <div class="text-center">
-      <img src="ahmad.jpg" alt="Ahmad" class="w-48 h-48 object-cover rounded-full mx-auto mb-4 border-4 border-emerald-600">
-      <h3 class="text-2xl font-semibold">Ahmad bin Yusuf</h3>
-      <p class="text-sm text-gray-600">Putra dari Bapak Yusuf & Ibu Amina</p>
+      <img src="hidayat.jpg" alt="Muhamad Hidayatullah" class="w-48 h-48 object-cover rounded-full mx-auto mb-4 border-4 border-emerald-600">
+      <h3 class="text-2xl font-semibold">Muhamad Hidayatullah</h3>
+      <p class="text-sm text-gray-600">Putra dari Bapak (—) & Ibu (—)</p>
     </div>
   </div>
 </section>
@@ -107,13 +106,13 @@ body {
     <h2 class="text-3xl font-arabic mb-6 gold">Detail Acara</h2>
     <div class="card mb-6">
       <h3 class="text-2xl font-semibold mb-2">Akad Nikah</h3>
-      <p>Sabtu, 10 Mei 2026 | 09.00 WIB</p>
-      <p>Masjid Al-Falah, Jakarta</p>
+      <p>Minggu, 16 Agustus 2026 | 09.00 WIB</p>
+      <p>Jl. RT.18 Urup, Samping Kalijo Ampah</p>
     </div>
     <div class="card">
       <h3 class="text-2xl font-semibold mb-2">Resepsi</h3>
-      <p>Sabtu, 10 Mei 2026 | 11.00 WIB - Selesai</p>
-      <p>Gedung Serbaguna Al-Falah, Jakarta</p>
+      <p>Minggu, 16 Agustus 2026 | 11.00 WIB - Selesai</p>
+      <p>Jl. RT.18 Urup, Samping Kalijo Ampah</p>
     </div>
   </div>
 </section>
@@ -176,7 +175,7 @@ body {
     <div class="card">
       <p><strong>Bank Syariah Indonesia</strong></p>
       <p>No. Rekening: 1234567890</p>
-      <p>a.n. Ahmad Yusuf</p>
+      <p>a.n. Muhamad Hidayatullah</p>
     </div>
   </div>
 </section>
@@ -198,7 +197,7 @@ toggle.addEventListener('click', () => {
   if (music.paused) { music.play(); toggle.textContent = '🔊'; }
   else { music.pause(); toggle.textContent = '🔇'; }
 });
-const weddingDate = new Date("May 10, 2026 09:00:00").getTime();
+const weddingDate = new Date("August 16, 2026 09:00:00").getTime();
 const timer = document.getElementById("timer");
 setInterval(() => {
   const now = new Date().getTime();
